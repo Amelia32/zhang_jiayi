@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="chap04" Database="" Version="10.0.0">
+  <Project Name="ex_13" Path="ex_13/ex_13.project" Active="No"/>
+  <Project Name="ex_17" Path="ex_17/ex_17.project" Active="No"/>
+  <Project Name="ex_18" Path="ex_18/ex_18.project" Active="No"/>
+  <Project Name="ex_19" Path="ex_19/ex_19.project" Active="No"/>
+  <Project Name="ex_26" Path="ex_26/ex_26.project" Active="No"/>
+  <Project Name="ex_30" Path="ex_30/ex_30.project" Active="No"/>
+  <Project Name="ex_32" Path="ex_32/ex_32.project" Active="No"/>
+  <Project Name="ex_33" Path="ex_33/ex_33.project" Active="No"/>
+  <Project Name="ex_34" Path="ex_34/ex_34.project" Active="No"/>
+  <Project Name="ex_20" Path="ex_20/ex_20.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="ex_13" ConfigName="Debug"/>
+      <Project Name="ex_17" ConfigName="Debug"/>
+      <Project Name="ex_18" ConfigName="Debug"/>
+      <Project Name="ex_19" ConfigName="Debug"/>
+      <Project Name="ex_26" ConfigName="Debug"/>
+      <Project Name="ex_30" ConfigName="Debug"/>
+      <Project Name="ex_32" ConfigName="Debug"/>
+      <Project Name="ex_33" ConfigName="Debug"/>
+      <Project Name="ex_34" ConfigName="Debug"/>
+      <Project Name="ex_20" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="ex_13" ConfigName="Release"/>
+      <Project Name="ex_17" ConfigName="Release"/>
+      <Project Name="ex_18" ConfigName="Release"/>
+      <Project Name="ex_19" ConfigName="Release"/>
+      <Project Name="ex_26" ConfigName="Release"/>
+      <Project Name="ex_30" ConfigName="Release"/>
+      <Project Name="ex_32" ConfigName="Release"/>
+      <Project Name="ex_33" ConfigName="Release"/>
+      <Project Name="ex_34" ConfigName="Release"/>
+      <Project Name="ex_20" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
