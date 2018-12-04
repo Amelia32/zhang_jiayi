@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="chap08" Database="" Version="10.0.0">
+  <Project Name="ex_08" Path="ex_08/ex_08.project" Active="No"/>
+  <Project Name="ex_09" Path="ex_09/ex_09.project" Active="No"/>
+  <Project Name="ex_08bcd" Path="ex_08bcd/ex_08bcd.project" Active="No"/>
+  <Project Name="ex_12" Path="ex_12/ex_12.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="ex_08" ConfigName="Debug"/>
+      <Project Name="ex_09" ConfigName="Debug"/>
+      <Project Name="ex_08b" ConfigName="Debug"/>
+      <Project Name="ex_cd" ConfigName="Debug"/>
+      <Project Name="ex_08bcd" ConfigName="Debug"/>
+      <Project Name="ex_12" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="ex_08" ConfigName="Release"/>
+      <Project Name="ex_09" ConfigName="Release"/>
+      <Project Name="ex_08b" ConfigName="Release"/>
+      <Project Name="ex_cd" ConfigName="Release"/>
+      <Project Name="ex_08bcd" ConfigName="Release"/>
+      <Project Name="ex_12" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
