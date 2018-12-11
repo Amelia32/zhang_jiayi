@@ -2,9 +2,9 @@
 <CodeLite_Workspace Name="chap02" Database="" Version="10.0.0">
   <Project Name="custom_Time" Path="custom_Time/custom_Time.project" Active="No"/>
   <Project Name="ex_14" Path="ex_14/ex_14.project" Active="No"/>
-  <Project Name="ex_15" Path="ex_15/ex_15.project" Active="No"/>
-  <Project Name="ex_27" Path="ex_27/ex_27.project" Active="Yes"/>
-  <Project Name="ex_271" Path="ex_271/ex_271.project"/>
+  <Project Name="ex_15" Path="ex_15/ex_15.project" Active="Yes"/>
+  <Project Name="ex_27" Path="ex_27/ex_27.project" Active="No"/>
+  <Project Name="ex_271" Path="ex_271/ex_271.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
