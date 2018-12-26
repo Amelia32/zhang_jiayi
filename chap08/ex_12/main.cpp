@@ -74,7 +74,7 @@ int tPosition(int Rand,int &Pos)
   if(Pos<=0)
    Pos=1;
  }
- else//乌龟百分之三十的时间慢走
+ else if(8<=Rand&&Rand<=10)//乌龟百分之三十的时间慢走
  {
   Pos++;
   if(Pos>=70)
@@ -107,7 +107,7 @@ int hPosition(int Rand,int &Pos)
   if(Pos>=70)
    Pos=70;
  }
- else//兔子百分之二十的时间小跌
+ else if(8<=Rand&&Rand<=10)//兔子百分之二十的时间小跌
  {
   Pos-=2;
   if(Pos<=0)

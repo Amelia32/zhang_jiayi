@@ -7,8 +7,7 @@ int main()
     
     for(int i=0;i<5;i++)
     {
-       
-        *(vPtr+i)=values[i];
-        cout<<*vPtr<<endl;
+    
+        cout<<values[i]<<endl;
     }
 }

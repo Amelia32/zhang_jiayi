@@ -3,7 +3,11 @@
   <Project Name="ex_08" Path="ex_08/ex_08.project" Active="No"/>
   <Project Name="ex_09" Path="ex_09/ex_09.project" Active="No"/>
   <Project Name="ex_08bcd" Path="ex_08bcd/ex_08bcd.project" Active="No"/>
-  <Project Name="ex_12" Path="ex_12/ex_12.project" Active="Yes"/>
+  <Project Name="ex_12" Path="ex_12/ex_12.project" Active="No"/>
+  <Project Name="ex_08efgh" Path="ex_08efgh/ex_08efgh.project" Active="No"/>
+  <Project Name="ex_08ij" Path="ex_08ij/ex_08ij.project" Active="No"/>
+  <Project Name="ex_13" Path="ex_13/ex_13.project" Active="Yes"/>
+  <Project Name="ex_14" Path="ex_14/ex_14.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +17,10 @@
       <Project Name="ex_cd" ConfigName="Debug"/>
       <Project Name="ex_08bcd" ConfigName="Debug"/>
       <Project Name="ex_12" ConfigName="Debug"/>
+      <Project Name="ex_08efgh" ConfigName="Debug"/>
+      <Project Name="ex_08ij" ConfigName="Debug"/>
+      <Project Name="ex_13" ConfigName="Debug"/>
+      <Project Name="ex_14" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -22,6 +30,10 @@
       <Project Name="ex_cd" ConfigName="Release"/>
       <Project Name="ex_08bcd" ConfigName="Release"/>
       <Project Name="ex_12" ConfigName="Release"/>
+      <Project Name="ex_08efgh" ConfigName="Release"/>
+      <Project Name="ex_08ij" ConfigName="Release"/>
+      <Project Name="ex_13" ConfigName="Release"/>
+      <Project Name="ex_14" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
