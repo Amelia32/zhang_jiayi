@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Matrix" Database="" Version="10.0.0">
-  <Project Name="Matrix" Path="Matrix/Matrix.project" Active="Yes"/>
+  <Project Name="Matrix" Path="Matrix/Matrix.project" Active="No"/>
+  <Project Name="Matrix_s" Path="Matrix_s/Matrix_s.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="Matrix" ConfigName="Debug"/>
+      <Project Name="Matrix_s" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="Matrix" ConfigName="Release"/>
+      <Project Name="Matrix_s" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
