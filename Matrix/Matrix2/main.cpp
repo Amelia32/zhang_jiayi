@@ -1,10 +1,14 @@
-#include <iostream>
+#include "matrix.h"
 using namespace std;
+ 
 int main()
 {
-int line, row;
-    Matrix A1, A2, A3;
-    Matrix* pA1 = new Matrix;
-    Matrix* pA2 = new Matrix;
-    Matrix* pA3 = new Matrix;
+	Matrix A = Matrix(3, 3);
+	cin >> A;
+	Matrix b = Matrix(3, 1);
+	cin >> b;
+	Matrix x = Matrix::Solve(A, b);
+	x.Show();
+	return 0;
 }
+ 
