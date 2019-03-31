@@ -64,6 +64,7 @@ Polynomial Polynomial::operator+(const Polynomial& r) const
 				temp.coefficients[t]+=coefficients[x];
 				exponentExists=true;
 			}
+            int s=1;
 			if(!exponentExists)
 			{
 				temp.exponents[s]=exponents[x];
@@ -97,6 +98,7 @@ Polynomial Polynomial::operator-(const Polynomial &r)const
 				temp.coefficients[t]-=r.coefficients[x];
 				exponentExists=true;
 			}
+            int s=1;
 		if(!exponentExists)
 		{
 			temp.exponents[s]=r.exponents[x];
@@ -138,7 +140,7 @@ void Polynomial::polynomialCombine(Polynomial& w)
 		w.coefficients[x]=0;
 		w.exponents[x]=0;
 	}
-	for(x=1;x<100;x++)
+	for(int x=1;x<100;x++)
 	{
 		exp=temp.exponents[x];
 		for(int y=x+1;y<100;y++)
@@ -184,6 +186,7 @@ void Polynomial::EnterTerms()//初始函数
 				}
 			if(!found)//阶数上同 另外储存
 			{
+                int term=1;
 				coefficients[term]+=c;
 				exponents[term]=e;
 			}
