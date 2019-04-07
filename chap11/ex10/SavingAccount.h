@@ -1,11 +1,17 @@
 #ifndef SAVINGACCOUNT_H
 #define SAVINGACCOUNT_H
+#include<string>
+#include"Account.h"
 
-class SavingAccount
+class SavingAccount:public Account
 {
 public:
-    SavingAccount();
-    ~SavingAccount();
+    SavingAccount(double,double,double,double);
+    void setRate(double);
+    double getRate();
+    double calculateInterest();
+private:
+    double rate;
 
 };
 
